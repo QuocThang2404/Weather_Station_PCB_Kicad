@@ -1,0 +1,82 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid fccd9807-82f9-4f68-9d96-698ba26cab27)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 44.45 33.02) (size 35.56 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 2f93e2d9-7143-4439-8954-6edd929a8623)
+    (property "Sheetname" "Power" (at 44.45 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Power.kicad_sch" (at 44.45 50.1146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "19-6-2023_WeatherStation_QuocThang_V1"
+        (path "/fccd9807-82f9-4f68-9d96-698ba26cab27" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 104.14 31.75) (size 45.72 81.28) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7e9fcb09-452a-4551-ac1e-984241ff7c74)
+    (property "Sheetname" "MCU" (at 104.14 31.0384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 104.14 113.6146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "19-6-2023_WeatherStation_QuocThang_V1"
+        (path "/fccd9807-82f9-4f68-9d96-698ba26cab27" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 162.56 49.53) (size 35.56 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid cee6abf8-9b64-4980-8f96-e771f609e449)
+    (property "Sheetname" "Input" (at 162.56 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Input.kicad_sch" (at 162.56 81.8646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "19-6-2023_WeatherStation_QuocThang_V1"
+        (path "/fccd9807-82f9-4f68-9d96-698ba26cab27" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 44.45 62.23) (size 35.56 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f70034ea-28e7-46e5-9993-07306abf4f15)
+    (property "Sheetname" "USB_To_TTL" (at 44.45 61.5184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB_To_TTL.kicad_sch" (at 44.45 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "19-6-2023_WeatherStation_QuocThang_V1"
+        (path "/fccd9807-82f9-4f68-9d96-698ba26cab27" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid eb34ec3e-e1e1-4de9-96b2-f96deac767e1)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 73.66 38.1) (size 25.4 17.78) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4db4e104-bffa-4b05-b380-e781fa529a76)
+    (property "Sheetname" "power" (at 73.66 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 73.66 56.4646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "WeatherStation"
+        (path "/eb34ec3e-e1e1-4de9-96b2-f96deac767e1" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
